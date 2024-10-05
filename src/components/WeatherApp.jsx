@@ -76,7 +76,7 @@ const backgroundImages = {
 
 const WeatherApp = function(){
 
-    const [city, setCity] = useState("");
+    const [city, setCity] = useState("Agra");
     const [data, setData] = useState({});
     const [isLoading, setIsLoading] = useState(false);
 
